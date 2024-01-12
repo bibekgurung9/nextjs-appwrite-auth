@@ -2,7 +2,7 @@
 import appwriteService from "@/appwrite/config";
 import useAuth from "@/context/useAuth";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import React, {FormEvent, useState} from "react";
 
 const Login = () => {
